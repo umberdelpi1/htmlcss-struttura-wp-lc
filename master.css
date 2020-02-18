@@ -27,14 +27,24 @@ main::after {
   clear: both;
 }
 
+/*  Sezione widgetleft */
 .left {
   /* debug rules */
   background-color: blue;
-  height: 200px;
+
   /* end debug rules */
  float: left;
  width: 25%;
 }
+
+.widgetleft {
+  background-color: white;
+  margin: 10px;
+  /* debug rules */
+  height: 200px;
+  /* end debug rules */
+}
+
 
 section {
   /* debug rules */
