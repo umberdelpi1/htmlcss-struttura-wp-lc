@@ -1,17 +1,24 @@
+
+/* Regole generali */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Sezione di testata */
 header {
+  /* debug rules */
   background-color: red;
   height: 150px;
+  /* end debug rules */
 }
 
+/* Sezione principale */
 main {
+  /* debug rules */
   background-color: lightblue;
-
+/* end debug rules */
 }
 
 main::after {
@@ -21,21 +28,31 @@ main::after {
 }
 
 .left {
+  /* debug rules */
   background-color: blue;
   height: 200px;
+  /* end debug rules */
+
 }
 
 section {
+  /* debug rules */
   background-color: pink;
   height: 500px;
+  /* end debug rules */
 }
 
 .right {
+    /* debug rules */
   background-color: blue;
   height: 200px;
+  /* end debug rules */
 }
 
+/* Sezione footer */
 footer {
+    /* debug rules */
   background-color: yellow;
   height: 150px;
+    /* end debug rules */
 }
