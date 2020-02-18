@@ -32,7 +32,8 @@ main::after {
   background-color: blue;
   height: 200px;
   /* end debug rules */
-
+ float: left;
+ width: 25%;
 }
 
 section {
@@ -40,6 +41,8 @@ section {
   background-color: pink;
   height: 500px;
   /* end debug rules */
+  float: left;
+  width: 50%;
 }
 
 .right {
@@ -47,6 +50,8 @@ section {
   background-color: blue;
   height: 200px;
   /* end debug rules */
+  float: left;
+  width: 25%;
 }
 
 /* Sezione footer */
