@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: red;
+  height: 150px;
+}
+
+main {
+  background-color: lightblue;
+
+}
+
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left {
+  background-color: blue;
+  height: 200px;
+}
+
+section {
+  background-color: pink;
+  height: 500px;
+}
+
+.right {
+  background-color: blue;
+  height: 200px;
+}
+
+footer {
+  background-color: yellow;
+  height: 150px;
+}
